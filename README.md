@@ -12,7 +12,7 @@ Our program consist of mapreduce framework which can be used to write your own m
 1. Creating and running Amazon Web Services EC2 instances     
 2. Read data and develope mapper     
 3. Shuffle and sort     
-4. Develope reducer     
+4. Develop reducer     
 
 ##Contents:      
 	1. Source code      
