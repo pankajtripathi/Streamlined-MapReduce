@@ -1,20 +1,20 @@
 # Streamlined-MapReduce
 Implemented a MapReduce framework with a streamlined API from first principles.
 
-##Author:      
+## Author:      
 Kartik Mahaley, Shakti Patro, Pankaj Tripathi, Chen Bai
 
-##Version: 
+## Version: 
 1.0
 
-##Description:      
+## Description:      
 Our program consist of mapreduce framework which can be used to write your own mapreduce code. Phases of our code is      
 1. Creating and running Amazon Web Services EC2 instances     
 2. Read data and develope mapper     
 3. Shuffle and sort     
 4. Develop reducer     
 
-##Contents:      
+## Contents:      
 	1. Source code      
 	2. Config.properties and log4j.properties     
 	3. README.txt    
@@ -23,20 +23,20 @@ Our program consist of mapreduce framework which can be used to write your own m
 	6. Examples Folder with source code, input and output files     
 	7. Project Report.rmd    
 
-##System specification & Pre Requisites:      
+## System specification & Pre Requisites:      
 	1. Mac/Linux machine with 8GB RAM    
 	2. Java 1.7    
 	3. Apache Maven 3.3    
 	4. Any IDE example eclipse	    
 
-##How to use API:      
+## How to use API:      
 1) Add jar to classpath or add it to pom.xml      
 	For adding it to pom, you can use following command      
 	make addmaven     
 2) Implement Mapper and Reducer class.      
 3) Run app's run method     
  
-##Before you run: 
+## Before you run: 
 Our program requires Amazon Web Services credentials(secret key, access key, region name, pem keys, bucket name etc. Before using our framework please create AWS account with all these details. Please fill all the details in config.properties file which is read by our mapreduce framework.        
 
 	1) Please don't change ipfile name in this config.properties file.     
@@ -71,7 +71,7 @@ Our program requires Amazon Web Services credentials(secret key, access key, reg
 		pemKeysPath=/home/user/Documents/
 		jarPath=node.jar
 
-##Steps to execute:
+## Steps to execute:
 1) Through terminal goto folder where jar, log4j.properties, config.properties are present   
 2) Specify action=start, instancetype and instancenumber in config.properties and execute jar as
 	java -jar jarname.jar    
@@ -79,7 +79,7 @@ Our program requires Amazon Web Services credentials(secret key, access key, reg
 	java -jar jarname.jar     
 
 
---If you want to create your own jar you can use command 
+-- If you want to create your own jar you can use command 
 	make buildjar
 
 
